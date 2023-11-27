@@ -1,0 +1,829 @@
+*{  font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+#page1{
+    width: 100%;
+    color:wheat;
+}
+#q{
+    height: 40px;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    font-weight: 50px;
+    position: relative;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+#q a{
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#q i{
+    color: white;
+}
+#w{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 50px;
+    position: relative;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+#w h1
+{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h1 span{
+    color:blue;
+}
+#page2{
+    width: 100%;
+    position: relative;
+}
+#page2 img{
+     width: 1255px;
+    height: 600px;
+  
+}
+#page2 h1{
+    top: 60px;
+    left: 39%;
+    gap: 20px;
+    font-size: 45px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page2 h2{
+    top: 120px;
+    left: 43%;
+    gap: 20px;
+    font-size: 35px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page2 h3{
+    top: 180px;
+    left: 41%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page2 h4{
+    top: 180px;
+    left: 53%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page3 {
+    width: 100%;
+   
+    position: relative;
+}
+#page3 img{
+    position: relative;
+    width: 1255px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 50px;
+    position: relative;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+#page3 h1{
+    top: 20px;
+    left: 42%;
+    position: absolute;
+    gap: 20px;
+    font-size: 55px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(7, 6, 6);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page3 h2{
+    top: 85px;
+    left: 44%;
+    position: absolute;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(33, 31, 31);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page3 h3{
+    top: 115px;
+    font-weight: 900;
+    left: 39%;
+    position: absolute;
+    gap: 20px;
+    font-size: 25px;
+  
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(33, 31, 31);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page3 h4{
+    top: 160px;
+    left: 42%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page3 h5{
+    top: 160px;
+    left: 54%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+#page4 img{
+    width: 1255px;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    font-weight: 50px;
+    position: relative;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+#page4 i{
+    top: 30px;
+    left: 43%;
+    position: absolute;
+    gap: 20px;
+    font-size: 45px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4 h1{
+    top: 30px;
+    left: 47.5%;
+    position: absolute;
+    gap: 20px;
+    font-size: 45px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4 h2{
+    top: 85px;
+    left: 48%;
+    position: absolute;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(218, 16, 16);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4 h3{
+    top: 115px;
+    font-weight: 900;
+    left: 42%;
+    position: absolute;
+    gap: 20px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4 h4{
+    top: 160px;
+    left: 44%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page4 h5{
+    top: 160px;
+    left: 55%;
+    gap: 200;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(81, 31, 173);
+    position: absolute;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#page5 h1 img{
+    top: 10px;
+    height: 495px;
+    width: 49%;
+    position: absolute;
+}
+#page5 i{
+    text-decoration: none;
+    top: 30px;
+    left: 20%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 h2{
+    top: 30px;
+    left: 23%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 h3{
+    top: 70px;
+    left: 17%;
+    position: absolute;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(28, 26, 26);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 h4{
+    top: 100px;
+    left: 20%;
+    position: absolute;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 h6 img{
+    top: 10px;
+    height: 495px;
+    left: 50%;
+    width: 50%;
+    position: absolute;
+}
+#page5 q {
+    top: 350px;
+    left: 68%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 w {
+    top: 350px;
+    left: 71%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 e {
+    top: 400px;
+    left: 62%;
+    position: absolute;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 r {
+    top: 430px;
+    left: 66%;
+    position: absolute;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page5 t {
+    top: 460px;
+    left: 72%;
+    position: absolute;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#page6 h1 img{
+    top: 10px;
+    height: 495px;
+    width: 49%;
+    position: absolute;
+}
+#page6 h2{
+    top: 40px;
+    left: 23%;
+    position: absolute;
+    gap: 20px;
+    font-size: 36px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 h3{
+    top: 90px;
+    left: 16%;
+    position: absolute;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(45, 42, 42);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 h4{
+    top: 120px;
+    left: 20%;
+    position: absolute;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 h5{
+    top: 120px;
+    left: 27%;
+    position: absolute;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 h6 img{
+    top: 10px;
+    height: 495px;
+    left: 50%;
+    width: 50%;
+    position: absolute;
+}
+#page6 w {
+    top: 40px;
+    left: 68%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 e {
+    top: 90px;
+    left: 63%;
+    position: absolute;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 r{
+    top: 130px;
+    left: 70%;
+    position: absolute;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page6 t{
+    top: 130px;
+    left: 77%;
+    position: absolute;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#page7 h1 img{
+    top: 10px;
+    height: 495px;
+    width: 49%;
+    position: absolute;
+}#page7 h2{
+    top: 30px;
+    left: 13.5%;
+    position: absolute;
+    gap: 20px;
+    font-size: 43px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 h3{
+    top: 70px;
+    left: 12%;
+    position: absolute;
+    gap: 20px;
+    font-size: 47px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black
+    text-transform (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 h4{
+    top: 120px;
+    left: 16%;
+    position: absolute;
+    gap: 200px;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(41, 39, 39);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 h5{
+    top: 150px;
+    left: 16%;
+    position: absolute;
+    gap: 200px;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(41, 39, 39);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 w{
+    top: 190px;
+    left: 19%;
+    position: absolute;
+    gap: 200px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 h6 img{
+    top: 10px;
+    height: 495px;
+    left: 50%;
+    width: 50%;
+    position: absolute;
+}
+#page7 i {
+    top: 60px;
+    left: 69%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 e {
+    top: 60px;
+    left: 71.5%;
+    position: absolute;
+    gap: 20px;
+    font-size: 33px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 r{
+    top: 97px;
+    left: 72%;
+    position: absolute;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(212, 93, 19);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 t{
+    top: 130px;
+    left: 67.3%;
+    position: absolute;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 y {
+    top: 170px;
+    left: 66.3%;
+    position: absolute;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page7 u {
+    top: 170px;
+    left: 77.3%;
+    position: absolute;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(44, 36, 196);
+    text-transform: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+#page8{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#page8 img{
+    top: 10px;
+    height: 495px;
+    width: 100%;
+    position: absolute;
+}
+#page9{
+    width: 100%;
+    position: relative;
+}
+#page9 h1{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    background-color: #645d5d;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    tab-size: 20px;
+}
